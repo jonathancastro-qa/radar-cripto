@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+backtest_results.json
+public/signals.json
+.env
