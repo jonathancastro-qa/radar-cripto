@@ -41,7 +41,7 @@
   button.primary:hover { background: #2a4d43; }
   button.primary:disabled { opacity: 0.6; cursor: progress; }
   button:focus-visible, input:focus-visible { outline: 2px solid var(--harbor); outline-offset: 2px; }
-  .tide { display: block; width: 100%; height: 72px; margin: 32px 0 8px; }
+  .velas { display: block; width: 100%; height: 120px; margin: 32px 0 8px; }
   .section-title { font-size: 14px; font-weight: 500; margin: 32px 0 4px; color: var(--harbor); }
   .row { border-top: 0.5px solid var(--line); padding: 20px 0; }
   .row:last-child { border-bottom: 0.5px solid var(--line); }
@@ -97,24 +97,7 @@
     <span class="status" id="status" role="status"></span>
   </div>
 
-  <svg class="tide" viewBox="0 0 680 72" preserveAspectRatio="none" aria-hidden="true">
-    <defs>
-      <path id="ola-principal" d="M0 41.41 L5 42.41 L10 43.35 L15 44.20 L20 44.96 L25 45.62 L30 46.16 L35 46.59 L40 46.90 L45 47.10 L50 47.18 L55 47.17 L60 47.06 L65 46.87 L70 46.62 L75 46.31 L80 45.96 L85 45.59 L90 45.20 L95 44.82 L100 44.45 L105 44.09 L110 43.77 L115 43.48 L120 43.22 L125 42.99 L130 42.79 L135 42.62 L140 42.47 L145 42.32 L150 42.18 L155 42.03 L160 41.86 L165 41.65 L170 41.41 L175 41.12 L180 40.78 L185 40.37 L190 39.90 L195 39.38 L200 38.79 L205 38.15 L210 37.47 L215 36.75 L220 36.01 L225 35.27 L230 34.53 L235 33.82 L240 33.15 L245 32.55 L250 32.02 L255 31.59 L260 31.26 L265 31.06 L270 30.98 L275 31.04 L280 31.24 L285 31.57 L290 32.04 L295 32.64 L300 33.36 L305 34.18 L310 35.10 L315 36.08 L320 37.12 L325 38.20 L330 39.28 L335 40.36 L340 41.41 L345 42.41 L350 43.35 L355 44.20 L360 44.96 L365 45.62 L370 46.16 L375 46.59 L380 46.90 L385 47.10 L390 47.18 L395 47.17 L400 47.06 L405 46.87 L410 46.62 L415 46.31 L420 45.96 L425 45.59 L430 45.20 L435 44.82 L440 44.45 L445 44.09 L450 43.77 L455 43.48 L460 43.22 L465 42.99 L470 42.79 L475 42.62 L480 42.47 L485 42.32 L490 42.18 L495 42.03 L500 41.86 L505 41.65 L510 41.41 L515 41.12 L520 40.78 L525 40.37 L530 39.90 L535 39.38 L540 38.79 L545 38.15 L550 37.47 L555 36.75 L560 36.01 L565 35.27 L570 34.53 L575 33.82 L580 33.15 L585 32.55 L590 32.02 L595 31.59 L600 31.26 L605 31.06 L610 30.98 L615 31.04 L620 31.24 L625 31.57 L630 32.04 L635 32.64 L640 33.36 L645 34.18 L650 35.10 L655 36.08 L660 37.12 L665 38.20 L670 39.28 L675 40.36 L680 41.41"/>
-      <path id="ola-fondo" d="M0 53.73 L5 53.97 L10 54.16 L15 54.30 L20 54.40 L25 54.46 L30 54.50 L35 54.51 L40 54.52 L45 54.53 L50 54.55 L55 54.58 L60 54.63 L65 54.71 L70 54.81 L75 54.94 L80 55.10 L85 55.27 L90 55.47 L95 55.67 L100 55.87 L105 56.07 L110 56.24 L115 56.39 L120 56.49 L125 56.54 L130 56.53 L135 56.46 L140 56.31 L145 56.07 L150 55.76 L155 55.37 L160 54.89 L165 54.34 L170 53.73 L175 53.05 L180 52.33 L185 51.57 L190 50.79 L195 50.01 L200 49.23 L205 48.49 L210 47.79 L215 47.14 L220 46.57 L225 46.08 L230 45.68 L235 45.38 L240 45.19 L245 45.11 L250 45.14 L255 45.27 L260 45.51 L265 45.84 L270 46.25 L275 46.74 L280 47.29 L285 47.88 L290 48.51 L295 49.15 L300 49.80 L305 50.43 L310 51.04 L315 51.62 L320 52.15 L325 52.63 L330 53.06 L335 53.42 L340 53.73 L345 53.97 L350 54.16 L355 54.30 L360 54.40 L365 54.46 L370 54.50 L375 54.51 L380 54.52 L385 54.53 L390 54.55 L395 54.58 L400 54.63 L405 54.71 L410 54.81 L415 54.94 L420 55.10 L425 55.27 L430 55.47 L435 55.67 L440 55.87 L445 56.07 L450 56.24 L455 56.39 L460 56.49 L465 56.54 L470 56.53 L475 56.46 L480 56.31 L485 56.07 L490 55.76 L495 55.37 L500 54.89 L505 54.34 L510 53.73 L515 53.05 L520 52.33 L525 51.57 L530 50.79 L535 50.01 L540 49.23 L545 48.49 L550 47.79 L555 47.14 L560 46.57 L565 46.08 L570 45.68 L575 45.38 L580 45.19 L585 45.11 L590 45.14 L595 45.27 L600 45.51 L605 45.84 L610 46.25 L615 46.74 L620 47.29 L625 47.88 L630 48.51 L635 49.15 L640 49.80 L645 50.43 L650 51.04 L655 51.62 L660 52.15 L665 52.63 L670 53.06 L675 53.42 L680 53.73"/>
-    </defs>
-    <g opacity="0.35">
-      <g>
-        <animateTransform attributeName="transform" type="translate" from="0 0" to="-680 0" dur="6s" repeatCount="indefinite"/>
-        <use href="#ola-fondo" x="0" fill="none" stroke="#1F3B33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <use href="#ola-fondo" x="680" fill="none" stroke="#1F3B33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </g>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-680 0" dur="3.5s" repeatCount="indefinite"/>
-      <use href="#ola-principal" x="0" fill="none" stroke="#1F3B33" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <use href="#ola-principal" x="680" fill="none" stroke="#1F3B33" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-  </svg>
+  <canvas class="velas" aria-hidden="true"></canvas>
 
   <h2 class="section-title" id="count"></h2>
   <div id="longs"></div>
@@ -500,13 +483,108 @@ const statusEl = document.getElementById("status");
 const autoBox = document.getElementById("auto");
 let running = false;
 let timer = null;
-const tideSvg = document.querySelector(".tide");
+const velas = document.querySelector(".velas");
+const ctx = velas.getContext("2d");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-function setWaves(moving) {
-  if (moving && !reduceMotion) tideSvg.unpauseAnimations();
-  else tideSvg.pauseAnimations();
+// Niveles de tamaño de vela: bajo, medio y alto (fracción del precio)
+const NIVELES = [0.012, 0.035, 0.08];
+const STEP = 16;           // separación horizontal entre velas (px)
+const SPEED = 24;          // velocidad de desplazamiento (px por segundo)
+const UP = "#1F3B33";      // alcista
+const DOWN = "#A4502E";    // bajista
+let velasData = [];
+let offset = 0;
+let rafId = null;
+let lastT = 0;
+
+function nuevaVela(prevClose) {
+  const nivel = NIVELES[Math.floor(Math.random() * NIVELES.length)];
+  // Sesgo suave hacia el centro para que el gráfico no se aleje demasiado
+  const pSube = prevClose < 100 ? 0.6 : 0.4;
+  const dir = Math.random() < pSube ? 1 : -1;
+  const o = prevClose;
+  const c = o * (1 + dir * nivel * (0.5 + Math.random()));
+  const mecha = nivel * (0.3 + Math.random());
+  const h = Math.max(o, c) * (1 + mecha * Math.random());
+  const l = Math.min(o, c) * (1 - mecha * Math.random());
+  return { o, c, h, l };
 }
+
+function resize() {
+  const dpr = window.devicePixelRatio || 1;
+  velas.width = Math.round(velas.clientWidth * dpr);
+  velas.height = Math.round(velas.clientHeight * dpr);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  // Suficientes velas para cubrir todo el ancho
+  const needed = Math.ceil(velas.clientWidth / STEP) + 3;
+  while (velasData.length < needed) {
+    const prev = velasData.length ? velasData[velasData.length - 1].c : 100;
+    velasData.push(nuevaVela(prev));
+  }
+}
+
+function draw() {
+  const w = velas.clientWidth, h = velas.clientHeight;
+  ctx.clearRect(0, 0, w, h);
+  const minP = Math.min(...velasData.map((v) => v.l));
+  const maxP = Math.max(...velasData.map((v) => v.h));
+  const pad = 8;
+  const y = (p) => pad + ((maxP - p) / (maxP - minP)) * (h - 2 * pad);
+  for (let i = 0; i < velasData.length; i++) {
+    const v = velasData[i];
+    const x = i * STEP - offset + STEP / 2;
+    if (x < -STEP || x > w + STEP) continue;
+    const color = v.c >= v.o ? UP : DOWN;
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.moveTo(x, y(v.h));
+    ctx.lineTo(x, y(v.l));
+    ctx.stroke();
+    const top = y(Math.max(v.o, v.c));
+    const bottom = y(Math.min(v.o, v.c));
+    ctx.fillRect(x - 4, top, 8, Math.max(bottom - top, 2));
+  }
+}
+
+function advance(dt) {
+  offset += SPEED * dt;
+  while (offset >= STEP) {
+    velasData.shift();
+    velasData.push(nuevaVela(velasData[velasData.length - 1].c));
+    offset -= STEP;
+  }
+}
+
+function frame(t) {
+  const dt = lastT ? Math.min((t - lastT) / 1000, 0.1) : 0;
+  lastT = t;
+  advance(dt);
+  draw();
+  rafId = requestAnimationFrame(frame);
+}
+
+// Se mueve solo mientras el escáner trabaja; en reposo queda fija
+function setWaves(moving) {
+  if (moving && !reduceMotion) {
+    if (!rafId) {
+      lastT = 0;
+      rafId = requestAnimationFrame(frame);
+    }
+  } else {
+    if (rafId) {
+      cancelAnimationFrame(rafId);
+      rafId = null;
+    }
+    draw();
+  }
+}
+
+resize();
+draw();
+window.addEventListener("resize", () => { resize(); draw(); });
 
 function setStatus(text, isError = false) {
   statusEl.textContent = text;
